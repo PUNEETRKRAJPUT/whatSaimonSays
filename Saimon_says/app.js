@@ -9,13 +9,13 @@ let h3=document.querySelector("h3");
 
 let h2=document.querySelector("h2");
 
-document.addEventListener("keypress",function(){
+function startGame(){
     if(started == false){
         console.log("game started");
         started=true;
         levelup();
     }
-});
+};
 function gameflash(btn){
     btn.classList.add("gameflash");
     setTimeout(function(){
