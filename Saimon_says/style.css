@@ -76,4 +76,14 @@ body {
     .btn-container {
         flex-wrap: wrap;
     }
+    @media screen and (max-width: 414px) {
+    .btn {
+        height: 50px;
+        width: 50px;
+        margin: 1rem;
+    }
+    .btn-container {
+        flex-wrap: wrap;
+    }
+}
 }
